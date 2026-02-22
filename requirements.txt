@@ -1,0 +1,4 @@
+dashscope==1.25.12
+fastapi==0.129.2
+pandas==1.5.3
+pydantic==1.10.12

@@ -1,0 +1,59 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Large data
+data/raw/
+data/tmp/
+*.csv
+*.parquet
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# 其他文件
+/completed_data
+/backups
+/experiment_reports_100runs
+/experiment_reports_100runs_completed
+/agent.py
+/baseline.py
+/experiment_script.py
+/core_engineering_model.py
+/original_main.py
+/all_results.py
+/experiment_results.json
+/Dockerfile
